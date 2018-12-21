@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
-    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId rootProject.ext.android.applicationId
@@ -20,7 +20,6 @@ android {
 }
 
 dependencies {
-//    implementation project(':multiple-status-view')
     implementation rootProject.ext.multipleStatusView
 
     implementation rootProject.ext.supportAppcompatV7
